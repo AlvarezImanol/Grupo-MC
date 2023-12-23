@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+*{margin: 0em;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  padding: 1em;
+  background-color: #D6D1BC;
+  font-family: 'Bebas Neue', cursive;
+}
+
+
+
+h1{
+  margin: 2em 0 .5em 0;
+  text-align: center;
+  color: #222222;
+  font-family: 'Bebas Neue', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+ }
+
+
+div{
+  border-radius: 10%;
+}
+ol, ul{
+  margin: 1em;
+}
+
+header{
+  text-align: center;
+  background: #8DAB93;
+  font-family: 'Bebas Neue', cursive;
+}
+
+p{
+  margin: 1em 0 .5em 0;
+  color: #353535;
+  font-family: 'PT Sans', sans-serif;
+  line-height: 2em;
+}
+
+
+ nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #8DAB93;
+  color: #fff;
+  
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+ .barra a{
+  text-decoration: none;
+  padding: 1em 1em;
+  margin: 1em;
+  display: flex;
+  color: white;
+  transition: .3s ease-in-out;
+  
+}
+
+.barra a:hover {
+  background-color: #4E7A6B;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: left;
+  margin-inline: auto;
+  flex-direction: row;
+  }
+
+  .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    width: 50%;
+    }
+
+  
+
+    .bievenidos{
+      padding: 0.5em;
+      max-width: 80em;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      width: 40%;
+    }
+
+    .clasificados{
+      padding: 0.5em;
+      max-width: 80em;
+      flex-flow: column;
+      justify-content: center;
+      width: 40%;
+    }
+
+    .somos{
+      padding: 0.5em;
+      max-width: 80em;
+      flex-flow: column;
+      justify-content: center;
+      width: 40%;
+
+    }
+
+    .productos{
+      padding: 0.5em;
+      max-width: 80em;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      width: 40%;
+    }
+
+    .ofertas{
+      padding: 0.5em;
+      max-width: 80em;
+      flex-flow: column;
+      justify-content: center;
+      width: 40%;
+
+    }
+
+    .contactenos{
+      padding: 0.5em;
+      max-width: 80em;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      width: 40%;
+
+    }
+
+    .productos{
+      padding: 0.5em;
+      max-width: 80em;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      width: 40%;
+    }
+
+
+    footer{
+      background-color: #1d1d1d;
+      font-family: 'Bebas Neue', cursive;
+      
+      }
+
+      footer p{
+        color: #ffffff;
+      }
+      footer{
+        background-color: #1d1d1d;
+        font-family: 'Bebas Neue', cursive;
+        padding: 1em;
+        color: #fff;
+        
+        }
+
+        .ubi {
+          margin: 0;
+          text-align: center;
+        }
+    
+        .pie{
+          display: flex; 
+          justify-content: space-between;
+        
+        }
+    
+        .pie p{
+          margin: 0.2em;
+          padding-left: 4.5em;
+          padding-right: 4.5em;
+        
+        }
+        .pie .ubi p{
+          margin: 0.2em;
+        }
+
+      .logo img{
+        margin-top: 5em;
+        width: 40em;
+        margin-bottom: 2em;
+      }
+
+      
+      @media only screen and (max-width: 600px){
+        nav ul {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        }
+
+        img {
+          display: flex;
+          height: auto;
+          max-width: 100%;
+        }
+
+        .logo img{
+          margin-top: 5em;
+          margin-bottom: 2em;
+          flex-wrap: wrap;
+        }
+
+        .contenedor{
+          display: flex;
+          flex-wrap: wrap;
+        }
+        h1{
+          display: flex;
+          align-items: center;
+          justify-content: center; 
+         }
+         nav {
+          position: inherit;
+          width: 100%;
+        }
+        nav ul li a {
+          display: flex;
+          padding: 0px;
+          text-decoration: none;
+        }
+
+      .barra a{
+        text-decoration: none;
+        padding: 0.5em;
+        margin: 0em;
+        display: flex;
+      }
+        
+      .contenedor{
+          display: flex;
+        flex-direction: column;
+        }
+        .logo {
+          width: 100%;
+          }
+          .bievenidos{
+            width: 100%;
+          }
+          
+          .somos{
+            width: 100%;
+          }
+
+          .productos{
+            width: 100%;
+          }
+
+          .clasificados{
+            width: 100%;
+          }
+
+          .ofertas{
+            width: 100%;
+          }
+          footer{
+            background-color: #1d1d1d;
+            font-family: 'Bebas Neue', cursive;
+            
+            }
+      
+          footer{
+          padding: 0em;
+          display: flex;
+          flex-direction: column;
+              }
+              
+      
+              .ubi {
+                margin: 0;
+                text-align: center;
+              }
+          
+              .pie{
+                display: flex; 
+                justify-content: space-between;
+                flex-direction: column;
+                text-align: center;
+              
+              }
+          
+              .pie p{
+                margin: 0.2em;
+                padding-left: 0em;
+                padding-right: 0em;
+              
+              }
+              .pie .ubi p{
+                margin: 0em;
+              }
+      
+            .logo img{
+              margin-top: 0em;
+              width: 40em;
+              margin-bottom: 0em;
+            }
+      }
+  
+      
